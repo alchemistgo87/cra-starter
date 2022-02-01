@@ -4,7 +4,7 @@ import MintPage from "components/pages/MintPage";
 export default function Routes(): JSX.Element {
   return (
     <RoutesImport>
-      <Route path="/mint" element={<MintPage />} />
+      <Route path="/" element={<MintPage />} />
     </RoutesImport>
   );
 }

@@ -1,3 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  color: var(--color-white);
+  background-image: linear-gradient(
+    to right,
+    var(--color-purple),
+    var(--color-purple-light)
+  );
+}
+
 .desktopContainer {
   display: block;
 }

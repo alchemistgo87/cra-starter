@@ -1,0 +1,50 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.searchBox {
+  position: relative;
+}
+
+.searchWidget {
+  height: 50px;
+  width: 400px;
+  border: gray solid 1px;
+  border-radius: 100px;
+  padding: 0 45px;
+}
+
+.searchIcon {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  padding-left: 20px;
+  stroke: var(--color-secondary);
+}
+
+.searchIconSVG {
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
+
+.crossIcon {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  padding-right: 20px;
+  stroke: var(--color-secondary);
+}
+
+.crossIconSVG {
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
