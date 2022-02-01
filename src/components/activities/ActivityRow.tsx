@@ -72,7 +72,7 @@ export default function ActivityRow({
           </Body3>
         )}
       </div>
-      <div>{activity.extraInfo.transactionId[0]}</div>
+      {/* <div>{activity.extraInfo.transactionId[0]}</div> */}
     </div>
   );
 }
