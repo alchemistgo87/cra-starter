@@ -39,11 +39,11 @@ async function getMetaDataJSON(
         .then(async (_) => {
           try {
             const data = await _.json();
-            try {
-              localStorage.setItem(uri, JSON.stringify(data));
-            } catch {
-              // ignore
-            }
+            // try {
+            //   localStorage.setItem(uri, JSON.stringify(data));
+            // } catch {
+            //   // ignore
+            // }
             resolve(processJson(data));
           } catch {
             resolve(undefined);

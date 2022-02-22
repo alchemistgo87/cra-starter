@@ -25,6 +25,7 @@ export default function MintPage(): JSX.Element {
     if (searchText) {
       const decodedText = bs58.decode(searchText);
       if (decodedText.length === 32) {
+        // console.log("decodedText", decodedText);
         setMint(null);
         setActivities(null);
         setLoadActivitiesState(LoadingState.Idle);

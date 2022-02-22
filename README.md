@@ -8,6 +8,11 @@ Get information about any solana mint. Currently it supports following types of 
 - NFT listing was cancelled on Magic Eden
 - NFT was bought on Magic Eden
 
+Example Mint Addresses:
+2xwirUyVWA3FwKVHFCgSJmSeApaBVMY31LXwQcjQgwP2
+2cQaPyqMaRhU4d9kASVtehNnBYekisjVVf3oTKao3K9E
+AwxYN9K7ThQEKvKLgdneNSk1fJTn2raCriGDVWooxnh9
+
 Note:
 To change maximum activities to show:
 Go to src/constants/constants.ts and update MAX_ACTIVITIES constant.
